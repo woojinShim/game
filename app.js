@@ -96,7 +96,7 @@ function moveInvaders() {
     clearInterval(invadersId);
   }
 }
-invadersId = setInterval(moveInvaders, 300);
+invadersId = setInterval(moveInvaders, 140);
 
 function shoot(e) {
   let laserId;
